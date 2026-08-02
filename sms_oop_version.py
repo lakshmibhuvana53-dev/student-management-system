@@ -115,6 +115,9 @@ class StudentManagementSystem:
                 print("Student data loaded successfully from the file.")
         except FileNotFoundError:
             print("No existing student data found. Starting with an empty list.")
+        except Exception as e:
+            print(f"Error while loading students: {e}")
+
 
 # save student data from the students list to the file.
     def save_students(self):
