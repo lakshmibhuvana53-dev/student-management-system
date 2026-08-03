@@ -1,3 +1,3 @@
-from student_management import StudentManagementSystem
-sms = StudentManagementSystem()
+from student_management import StudentManagement
+sms = StudentManagement()
 sms.system_menu()
